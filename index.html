@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=MuseoModerno:wght@700&display=swap" rel="stylesheet">
+    <style>
+
+        * {
+            margin: 0
+        }
+
+        :root {
+            --font-uno: 'MuseoModerno', cursive;
+            --font-dos: 'Asap', sans-serif;
+            --color-uno: #0a2ff1;
+            --color-dos: #04146c;
+        }
+
+        #enunciado {
+        font-family: var(--font-uno);
+        color: var(--color-uno);
+        font-size: 88pt;
+        height: 96pt;
+        }
+
+        #subtitle {
+            font-family: var(--font-dos), regular;
+            color: var(--color-uno);
+            font-size: 39pt;
+            margin-bottom: 40pt;
+        }
+
+        body p{
+            font-family: var(--font-dos), regular;
+            color: var(--color-dos);
+            font-size: 25pt;
+        }
+
+        #p1 {
+            margin-bottom: 30pt;
+        }
+
+        .negrita {
+            font-family: var(--font-dos), bold;
+        }
+
+        #titulo-inferior {
+            font-family: var(--font-uno);
+            color: var(--color-uno);
+            font-size: 36pt;
+            margin-top: 45pt;
+        }
+
+        #lista-uno {
+            font-family: var(--font-dos);
+            color: var(--color-dos);
+            font-size: 25pt;
+            padding: 0;
+        }
+
+        #lista-uno li {
+            list-style: none;
+        }
+
+        #footer {
+            font-family: var(--font-uno);
+            color: #8a9af1;
+            font-size: 140pt;
+        }
+
+        body {
+            background-color:  #edf7ff;
+            padding-left: 30pt;
+            padding-top: 30pt;
+        }
+
+        div {
+            width: 830px;
+        }
+    </style>
+</head>
+    <header>
+        <div>
+            <h1 id="enunciado">Mendoza</h1>
+            <h3 id="subtitle">Destino seguro y abierto al turismo</h3>
+        </div>
+    </header>
+<body>
+    <div>    
+        <p id="p1">
+            <strong class="negrita">Mendoza</strong> es una ciudad de la región de Cuyo en Argentina y 
+            es <strong class="negrita">el corazón de la zona vitivinícola argentina</strong>, famosa por 
+            sus Malbecs y otros vinos tintos. Sus distintas bodegas 
+            ofrecen degustaciones y visitas guiadas. <br>
+        </p>
+        <p> La ciudad tiene calles amplias y frondosas rodeadas de 
+            edificios modernos y art déco, y con plazas más pequeñas 
+            que rodean la Plaza Independencia, sitio del Museo 
+            Municipal de Arte Moderno subterráneo, que exhibe <strong class="negrita">arte 
+            moderno y contemporáneo.</strong>
+        </p>
+    </div>
+
+    <h2 id="titulo-inferior">Conocé Mendoza</h2>
+    <div>
+        <ul id="lista-uno">
+            <li>● ¿Qué hacer?</li>
+            <li>● ¿Qué comer?</li>
+            <li>● ¿Dónde alojarse?</li>
+        </ul>
+    </div>
+</body>
+
+<footer>
+    <h4 id="footer">#ModoMendoza</h4>
+</footer>
+</html>
